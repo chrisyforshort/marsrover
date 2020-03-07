@@ -1,6 +1,7 @@
 import React , { Component, Fragment } from 'react';
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
+import Filters from "./components/Filters";
 import './App.css';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
         <p>Cameras <span>Sol</span></p>
       </Filters>
     </Fragment>
-  );
+  )
 }
 
 export default App;
