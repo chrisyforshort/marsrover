@@ -1,7 +1,8 @@
 import React , { Component, Fragment } from 'react';
-import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import Filters from "./components/Filters";
+import Wrapper from "./components/Wrapper";
+import CameraCards from "./components/CameraCards";
 import './App.css';
 
 function App() {
@@ -14,6 +15,9 @@ function App() {
       <Filters>
         <p>Cameras <span>Sol</span></p>
       </Filters>
+      <Wrapper>
+        <CameraCards></CameraCards>
+      </Wrapper>
     </Fragment>
   )
 }
