@@ -1,0 +1,8 @@
+.loading {
+    background-color: hsl(256,71,11);
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-content: flex-start;
+    overflow: auto;
+}

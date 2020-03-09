@@ -1,4 +1,5 @@
 import React , { Component, Fragment } from 'react';
+import Loading from "./components/Loading";
 import Title from "./components/Title";
 import Filters from "./components/Filters";
 import Wrapper from "./components/Wrapper";
@@ -28,7 +29,7 @@ class App extends Component {
   render() {
     var { isLoaded, items } = this.state;
     if (!isLoaded) {
-      return <div>Loading...</div>;
+      return <Wrapper><Loading/></Wrapper>;
     } else
     {
       return (
