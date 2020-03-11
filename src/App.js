@@ -16,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=s4qQyX357rGwDgAa0XiIn7SArZdcbdJ3KviG9reH')
+    fetch('https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=14&api_key=s4qQyX357rGwDgAa0XiIn7SArZdcbdJ3KviG9reH')
       .then(res => res.json())
       .then(json => {
         this.setState({

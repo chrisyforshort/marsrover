@@ -1,13 +1,12 @@
 import React from "react";
 import "./Filters.css";
-import ReactMultiSelectCheckboxes from 'react-multiselect-checkboxes';
 
 const Filters = props => 
     <div className="filters">          
         <p>Cameras <span className="solSpan">Sol</span></p>
         <div className="optionsDiv">
             <div className="dropdown">
-                <button className="camerasBTN"><span id="camerasSelected">7</span> Selected<i class="fa fa-caret-down" /></button>
+                <button className="camerasBTN"><span id="camerasSelected">7</span> Selected<i className="fa fa-caret-down" /></button>
                 <div className="dropdown-content">
                     <div>
                         <button className="dropDownBTN" id="selectAll">Select All</button>
